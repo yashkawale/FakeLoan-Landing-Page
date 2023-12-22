@@ -1,0 +1,132 @@
+footer{
+    background-color: #204570;
+}
+.footer-grid{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.addr p{
+    color: white;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.social-logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logo-circle{
+    background-color: #0bde8d62;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0BDE8C;
+}
+
+.logo-circle:hover{
+    transition: 0.3s ;
+    background-color: #0BDE8C;
+    color: white;
+    transform:scaleX(-1);
+}
+
+.footer-middle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 200px;
+}
+.footer-middle p{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links a{
+    color: white;
+}
+.links a:link{
+    font-weight: lighter; 
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #0BDE8C;
+    text-decoration: underline;
+    margin-left: 6px;
+    transition: 0.5s;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-right div{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.footer-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.footer-right form p{
+    color: white;
+    font-weight: lighter;
+}
+
+.footer-right form input{
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.footer-right form input[type=email]{
+    background-color: #204570;
+    border-color: white;
+    font-size: medium;
+    color: white;
+
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+.copy-span{
+    color: #0BDE8C;
+    font-size: larger;
+}
